@@ -3,8 +3,7 @@ from flask import Flask,jsonify,render_template
 from numpy import size
 from requests import get
 import matplotlib.pyplot as plt
-import os,shutil
-import cv2
+import os
 
 app = Flask(__name__)
 
