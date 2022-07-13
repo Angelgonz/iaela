@@ -8,7 +8,7 @@ import cv2
 
 app = Flask(__name__)
 
-@app.route('/recibir')
+@app.route('/ia')
 def maquetando():
     recibir=get("https://aples.herokuapp.com/mail").json()
 
